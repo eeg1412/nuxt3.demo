@@ -10,7 +10,7 @@
 import { useRoute } from 'vue-router'
 
 definePageMeta({
-  alias: '/:page?',
+  alias: '/',
   name: 'post-list',
 })
 
