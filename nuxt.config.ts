@@ -4,4 +4,7 @@ export default defineNuxtConfig({
   routeRules: {
     '/api/**': { proxy: 'https://card.wikimoe.com/api/**' },
   },
+  app: {
+    pageTransition: { name: 'page', mode: 'out-in' },
+  },
 })
