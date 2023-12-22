@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="font-sans">
     <!-- 路由 -->
     <NuxtPage />
     <h1 class="bg-primary-400 text-white rounded-full mt-1 p-2 cursor-pointer">

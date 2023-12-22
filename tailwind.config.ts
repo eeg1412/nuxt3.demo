@@ -19,6 +19,10 @@ export default <Partial<Config>>{
           '950': '#75153a',
         },
       },
+      fontFamily: {
+        sans: ['PingFang SC', '微软雅黑', 'Arial', 'sans-serif'],
+        serif: ['Songti SC', '宋体', 'Times New Roman', 'serif'],
+      },
     },
   },
 }
