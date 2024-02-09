@@ -3,8 +3,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxt/ui'],
   routeRules: {
-    '/api/**': { proxy: 'http://127.0.0.1:3001/api/**' },
-    '/about': { swr: 600 },
+    '/about': { swr: 30 },
     '/index22': { swr: 600 },
   },
   app: {
